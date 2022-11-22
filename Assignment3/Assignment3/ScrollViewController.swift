@@ -25,17 +25,20 @@ class ScrollViewController: UIViewController {
 
         // Do any additional setup after loading the view.
     }
-    
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        let infoVC = segue.destination as! InfoController
+        infoVC.first_name = firstName.text!
+        infoVC.last_name = lastName.text!
+        infoVC.street_number = streetNumber.text!
+        infoVC.street_name = streetName.text!
+        infoVC.var_city = city.text!
+        infoVC.var_province = province.text!
+        infoVC.postal_code = postalCode.text!
+        infoVC.var_email = email.text!
+        infoVC.var_dob = dob.text!
+        
+        
     }
-    */
+
 
 }
