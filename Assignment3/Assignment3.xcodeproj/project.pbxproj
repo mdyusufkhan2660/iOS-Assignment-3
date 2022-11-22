@@ -17,6 +17,8 @@
 		50E9398C292D199400283DF6 /* Assignment3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E9398B292D199400283DF6 /* Assignment3UITests.swift */; };
 		50E9398E292D199400283DF6 /* Assignment3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E9398D292D199400283DF6 /* Assignment3UITestsLaunchTests.swift */; };
 		50E9399B292D207100283DF6 /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E9399A292D207100283DF6 /* ScrollViewController.swift */; };
+		50E9399D292D3AFC00283DF6 /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E9399C292D3AFC00283DF6 /* InfoController.swift */; };
+		50E9399F292D410000283DF6 /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E9399E292D410000283DF6 /* ImageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		50E9398B292D199400283DF6 /* Assignment3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment3UITests.swift; sourceTree = "<group>"; };
 		50E9398D292D199400283DF6 /* Assignment3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assignment3UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		50E9399A292D207100283DF6 /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		50E9399C292D3AFC00283DF6 /* InfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoController.swift; sourceTree = "<group>"; };
+		50E9399E292D410000283DF6 /* ImageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				50E9396C292D199400283DF6 /* SceneDelegate.swift */,
 				50E9396E292D199400283DF6 /* HomeController.swift */,
 				50E93970292D199400283DF6 /* Main.storyboard */,
+				50E9399C292D3AFC00283DF6 /* InfoController.swift */,
+				50E9399E292D410000283DF6 /* ImageController.swift */,
 				50E9399A292D207100283DF6 /* ScrollViewController.swift */,
 				50E93973292D199400283DF6 /* Assets.xcassets */,
 				50E93975292D199400283DF6 /* LaunchScreen.storyboard */,
@@ -265,6 +271,8 @@
 				50E9396B292D199400283DF6 /* AppDelegate.swift in Sources */,
 				50E9396D292D199400283DF6 /* SceneDelegate.swift in Sources */,
 				50E9399B292D207100283DF6 /* ScrollViewController.swift in Sources */,
+				50E9399D292D3AFC00283DF6 /* InfoController.swift in Sources */,
+				50E9399F292D410000283DF6 /* ImageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
