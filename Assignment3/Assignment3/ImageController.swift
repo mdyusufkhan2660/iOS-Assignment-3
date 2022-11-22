@@ -1,5 +1,5 @@
 //
-//  ScrollViewController.swift
+//  ImageController.swift
 //  Assignment3
 //
 //  Created by Yusuf Khan on 2022-11-22.
@@ -7,25 +7,14 @@
 
 import UIKit
 
-class ScrollViewController: UIViewController {
+class ImageController: UIViewController {
 
-    @IBOutlet weak var firstName: UITextField!
-    @IBOutlet weak var lastName: UITextField!
-    @IBOutlet weak var streetNumber: UITextField!
-    @IBOutlet weak var streetName: UITextField!
-    @IBOutlet weak var city: UITextField!
-    @IBOutlet weak var dob: UITextField!
-    @IBOutlet weak var email: UITextField!
-    @IBOutlet weak var postalCode: UITextField!
-    @IBOutlet weak var province: UITextField!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "Scroll View Screen"
+        title = "Image View Screen"
 
         // Do any additional setup after loading the view.
     }
-    
     
 
     /*
