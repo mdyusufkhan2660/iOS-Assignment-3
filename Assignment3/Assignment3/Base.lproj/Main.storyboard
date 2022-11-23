@@ -104,6 +104,9 @@
                                                                 </constraints>
                                                                 <state key="normal" title="Button"/>
                                                                 <buttonConfiguration key="configuration" style="plain" image="btnImage" title="Button"/>
+                                                                <connections>
+                                                                    <segue destination="dBB-Fk-LZl" kind="show" identifier="scrollToImage" id="PBF-cX-wHC"/>
+                                                                </connections>
                                                             </button>
                                                         </subviews>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -184,7 +187,8 @@
                                                             <color key="baseForegroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </buttonConfiguration>
                                                         <connections>
-                                                            <segue destination="4eC-GA-fRA" kind="show" id="TaX-ot-Bqf"/>
+                                                            <action selector="submit:" destination="JAc-Xq-9xU" eventType="touchUpInside" id="wHA-cu-gGx"/>
+                                                            <segue destination="4eC-GA-fRA" kind="show" identifier="scrollToInfo" id="O12-KL-OjU"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -233,7 +237,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="btnImage" translatesAutoresizingMaskIntoConstraints="NO" id="yUV-Z7-KJg">
-                                <rect key="frame" x="0.0" y="64" width="393" height="749"/>
+                                <rect key="frame" x="0.0" y="86" width="393" height="749"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="DV5-qS-pCu"/>

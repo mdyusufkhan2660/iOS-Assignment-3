@@ -26,19 +26,21 @@ class ScrollViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let infoVC = segue.destination as! InfoController
-        infoVC.first_name = firstName.text!
-        infoVC.last_name = lastName.text!
-        infoVC.street_number = streetNumber.text!
-        infoVC.street_name = streetName.text!
-        infoVC.var_city = city.text!
-        infoVC.var_province = province.text!
-        infoVC.postal_code = postalCode.text!
-        infoVC.var_email = email.text!
-        infoVC.var_dob = dob.text!
-        
-        
+        if(segue.identifier == "scrollToInfo"){
+            let infoVC = segue.destination as! InfoController
+            infoVC.first_name = firstName.text!
+            infoVC.last_name = lastName.text!
+            infoVC.street_number = streetNumber.text!
+            infoVC.street_name = streetName.text!
+            infoVC.var_city = city.text!
+            infoVC.var_province = province.text!
+            infoVC.postal_code = postalCode.text!
+            infoVC.var_email = email.text!
+            infoVC.var_dob = dob.text!
+        }
     }
 
-
+    @IBAction func submit(_ sender: Any) {
+    }
+    
 }
